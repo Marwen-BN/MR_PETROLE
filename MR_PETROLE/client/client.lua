@@ -266,7 +266,7 @@ end)
 function animacion()
 
     local playerPed = PlayerPedId()
-    TaskStartScenarioInPlace(PlayerPedId(), GetHashKey('WORLD_CAMP_JACK_ES_BUCKET_FILL'), 10000, true, false, false, false)
+    TaskStartScenarioInPlace(PlayerPedId(), GetHashKey('WORLD_HUMAN_BUCKET_FILL'), 10000, true, false, false, false)
 	 RSGCore.Functions.Progressbar('petrol', Language.translate[Config.lang]['mining'], 10000, false, true, {
 		disableMovement = true,
 		disableCarMovement = true,
@@ -279,7 +279,7 @@ end)
 end
 
 function animacion2()
-	TaskStartScenarioInPlace(PlayerPedId(), GetHashKey('WORLD_PLAYER_CHORES_BUCKET_POUR_HIGH'), 10000, true, false, false, false)
+	TaskStartScenarioInPlace(PlayerPedId(), GetHashKey('WORLD_HUMAN_BUCKET_POUR_LOW'), 10000, true, false, false, false)
 	RSGCore.Functions.Progressbar('petrol', Language.translate[Config.lang]['placing'], 10000, false, true, {
 		disableMovement = true,
 		disableCarMovement = true,
