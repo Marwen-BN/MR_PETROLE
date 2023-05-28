@@ -2,20 +2,20 @@ Language = {}
 
 Language.translate = {
     ['en'] = {
-        ['press'] = 'Press [RETNE] to start working',
+        ['press'] = 'Press [ENTER] to start working',
         ['nojob'] = 'Good job',
-        ['gopos'] = 'Go to a marked',
-        ['pressc'] = 'Press [ENTER] to load the Arabic',
-        ['goto'] = 'Go to the next marked',
+        ['gopos'] = 'Go to marked area',
+        ['pressc'] = 'Press [ENTER] to fill the bucket',
+        ['goto'] = 'Go to the next marked area',
         ['carry'] = 'Load all the materials into the cart',
         ['completejob'] = 'You have completed your work, you have won',
         ['noveh'] = 'You must deliver all equipment with the cart ',
         ['temp'] = 'TIMER: ',
         ['seconds'] = ' REMAINING SECONDS',
-        ['lose'] = 'You haven not arrived on time, job canceled',
+        ['lose'] = 'You have not arrived on time, job has been canceled',
         ['pressf'] = 'Press [ENTER] to connect the oil',
-        ['mining'] = 'Bucket full',
-        ['placing'] = 'full of cart',
+        ['mining'] = 'Filling bucket',
+        ['placing'] = 'Loading cart',
 
     },
     ['ar'] = {
